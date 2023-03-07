@@ -22,9 +22,13 @@ python3 main.py
 ```
 
 #web-server
+
 Para correr el programa el web-server debes de seguir los siguientes pasos en la Terminal:
 
 ```sh
+#Entramos al directorio
+cd web-server
+
 #Creacion del contenedor
 docker-compose build
 
