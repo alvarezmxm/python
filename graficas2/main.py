@@ -2,7 +2,7 @@ import read_csv
 import utils
 import grafica
 
-def run():
+def run(): #esto es un comentario para verlo en docker
   datos = read_csv.lectura_csv('./data.csv')
   country = list(map(lambda item:item['Country/Territory'], datos))
  # print(country)
